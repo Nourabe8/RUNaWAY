@@ -19,7 +19,7 @@ pipeline {
 
 		stage('Build') {
 			steps {
-				sh 'docker build -t "nourab/nourab2d4:2.0" .'
+				sh 'docker build -t nourab/nourab2d4:2.0 .'
 			}
 		}
 
